@@ -1,0 +1,152 @@
+.serviceContainer {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    width: 100%;
+    border-top: 2px solid #e7e7e7;
+}
+
+.serviceContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-image: url('../../assets/servicesImg.jpg');
+    background-attachment: fixed;
+    background-position: 10% 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.serviceContent h3 {
+    font-family: 'Oranienbaum';
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #fff;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 90%;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.servicesCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #ededec;
+    border-radius: 10px;
+    width: 45%;
+    max-width: 400px;
+    height: 60%;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.servicesCard:hover {
+    height: 85%;
+}
+
+.cardText{
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.servicesCard:hover .cardText{
+    display: block;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.servicesIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 3rem 0 0.3rem;
+    transition: 0.5s;
+}
+
+.servicesCard:hover .servicesIcon {
+    scale: 0.75;
+    margin-top: 1rem;
+}
+
+.servicesIcon img {
+    position: absolute;
+    width: 40px;
+    height: 42px;
+}
+
+.servicesCard span {
+    color: #ae9877;
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    transition: 0.5s;
+}
+
+.servicesCard:hover span{
+    font-size: 1rem;
+}
+
+.saibaMais {
+    font-family: 'Brittany';
+}
+
+.servicesCard:hover .saibaMais{
+    display: none;
+}
+
+@media screen and (max-width:720px) {
+    .serviceContent {
+        height: 900px;
+        padding-top: 1rem;
+        background-position: 5% 40%;
+    }
+
+    .services {
+        flex-direction: column;
+        margin: 0 auto ;
+    }
+
+    .servicesCard {
+        width: 100%;
+        height: 30%;
+    }
+
+    .servicesCard:hover {
+        height: 45%;
+    }
+
+    .saibaMais {
+        font-size: 1.3rem;
+    }
+}

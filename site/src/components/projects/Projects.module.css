@@ -1,0 +1,111 @@
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.projectsContainer h3 {
+    font-family: 'Oranienbaum';
+    font-weight: normal;
+    color: #5a5a5a;
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+} 
+
+.projectsContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 80px 8px #eaeaea;
+    padding: 1rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #efefef;
+    width: 15rem;
+    height: fit-content;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 30rem;
+}
+
+.comment svg {
+    font-size: 4rem;
+    align-self: self-start;
+    color: #d4d1bf;
+}
+
+.comment p {
+    font-family: 'Oranienbaum';
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #5a5a5a;
+}
+
+.comment span {
+    font-size: 1rem;
+    text-align: end;
+    color: #93928a;
+}
+
+@media screen and (max-width:720px) {
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 12rem;
+        padding: 1rem;
+    }
+    
+    .comment {
+        width: 80%
+    }
+
+    .comment svg {
+        font-size: 2rem;
+    }
+
+    .comment p {
+          font-size: 1rem;
+    }
+
+    .comment span {
+        font-size: 1.2rem;
+    }
+
+}

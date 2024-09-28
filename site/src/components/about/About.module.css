@@ -1,0 +1,96 @@
+.aboutContainer {
+    margin: 6rem 0 ;
+    width: 100%;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.imgsContent {
+    width: 30rem;
+    position: relative;
+}
+
+.imgSecond{
+    width: 100%;
+    object-fit: contain;
+}
+
+.aboutText{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 4rem;
+    width: 780px;
+}
+
+.aboutText h3 {
+    font-family: 'Oranienbaum';
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #5a5a5a;
+    overflow-wrap: normal;
+}
+
+.aboutText span {
+    color: #c3a67c;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.aboutText h3:last-of-type {
+    font-family: 'Brittany';
+    color: #847a5e;
+}
+
+.aboutText p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    overflow-wrap: normal;
+}
+
+.aboutLinks ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    margin-top: 6rem;
+}
+
+.aboutLinks ul li svg {
+    color: #847a5e;
+}
+
+@media screen and (max-width:720px) {
+    .aboutContainer {
+        margin: 8rem 0 2rem 0 ;
+    }
+
+    .aboutContent {
+        flex-direction: column;
+        margin: 1rem;
+        width: 90%;
+    }
+
+    .imgsContent {
+        width: 90%;
+    }
+
+    .aboutText {
+        padding: 0 2rem;
+        margin-top: 0rem;
+        width: 100%;
+    }
+
+    .aboutLinks ul {
+        gap: 4rem;
+    }
+    
+}

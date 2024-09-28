@@ -1,0 +1,92 @@
+.heroContainer {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    background-image: url('../../assets/hero.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header ul {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+header ul li a {
+    color: #dddbdb;
+    cursor: pointer;
+    padding-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+header ul li a:hover{
+    border-bottom: 1px solid #dddbdb;
+    color: #fff;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContent h2 {
+    font-family: 'Brittany';
+    font-size: 8rem;
+    color: #f5f1f1;
+    font-weight: normal;
+}
+
+.titleLa {
+    margin-bottom: -100px;
+}
+
+.titleCerimonial {
+    border-bottom: 1px solid #f5f1f1;
+}
+
+.heroContent button {
+    padding: 15px;
+    margin-top: 2rem;
+    background: none;
+    border: 1px solid #f5f1f1;
+    color: #f5f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.heroContent button:hover {
+    background-color: #c3c1c18d;
+    color: #ffffff;
+}
+
+.heroContent button a {
+    color: #ffffff;
+}
+
+
+
+@media screen and (max-width:720px) {
+    .heroContainer {
+        align-items: center;
+    }
+
+    .heroContent h2 {
+        font-size: 5rem;
+    }
+
+    .titleLa {
+        margin-bottom: -40px;
+    }
+}

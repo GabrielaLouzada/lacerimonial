@@ -1,0 +1,145 @@
+.contactContainer {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e2dc;
+    padding: 2rem 0;
+}
+
+.contactContainer h3 {
+    font-family: 'Brittany';
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.contactContainer p {
+    font-size: 1.1rem;
+}
+
+.contactContent {
+    display: flex;
+    gap: 4rem;
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 4rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 25px 5px #bebebe;
+}
+
+.contactLinks {
+    border-right: 1px solid #d0cdcd;
+    padding-right: 2rem;
+}
+
+.contactLinks ul li {
+    margin-top: 2rem;
+}
+
+.contactLinks ul li div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.contactLinks a {
+    color: #878484;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+.contactLinks a:hover {
+    color: #4b4b4b;
+}
+
+.contactSendEmail {
+    width: 100%;
+}
+
+.contactSendEmail p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.contactSendEmail form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSendEmail form input {
+    border: 1px solid #c5c3bf;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: none;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    border: 1px solid #c5c3bf;
+    border-radius: 3px;
+}
+
+.contactSendEmail form button {
+    background-color: #c5c3bf;
+    padding: 15px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    max-width: 500px;
+
+}
+
+.contactSendEmail form button:hover {
+    background-color: #ddd4c8;
+}
+
+@media screen and (max-width:720px) {
+    .contactContent {
+        flex-direction: column;
+        gap: 3rem;
+        width: 90%;
+        padding: 3rem;
+    }
+
+    .contactContainer p {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .contactLinks {
+        border-right: none;
+        border-bottom: 1px solid #d0cdcd;
+        padding-bottom: 2rem;
+    }
+
+    .contactLinks ul li div {
+        font-size: 1.2rem;
+    }
+
+    .contactSendEmail form input {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    textarea {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}

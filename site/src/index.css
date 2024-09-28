@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Cormorant Garamond';
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Brittany';
+    src: url('./assets/BrittanySignature.ttf') format('opentype');
+    font-weight: normal;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+main {
+    display: block;
+    min-height: 100vh;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #626060 !important;
+}
