@@ -101,4 +101,13 @@ header ul li a:hover{
     .titleLa {
         margin-bottom: 0px;
     }
+
+    .titleCerimonial {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #f5f1f1;
+    }
+
+    .heroContent button {
+        margin-top: 3rem;
+    }
 }
