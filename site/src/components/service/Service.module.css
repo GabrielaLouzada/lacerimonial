@@ -143,10 +143,11 @@
     }
 
     .servicesCard:hover {
-        height: 45%;
+        height: 50%;
     }
 
     .saibaMais {
+        margin-top: 1rem;
         font-size: 1.3rem;
     }
 }
