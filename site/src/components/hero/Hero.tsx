@@ -13,8 +13,10 @@ const Hero = () => {
         </header>
         
           <div className={styles.heroContent}>
-            <h2 className={styles.titleLa}>La</h2>
-            <h2 className={styles.titleCerimonial}>Cerimonial</h2>
+            <div className={styles.heroTitle}>
+              <h2 className={styles.titleLa}>La</h2>
+              <h2 className={styles.titleCerimonial}>Cerimonial</h2>
+            </div>
             <button><a href="#contact">CONTATE-NOS</a></button>
           </div>
     </section>

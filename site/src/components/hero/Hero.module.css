@@ -38,9 +38,17 @@ header ul li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.heroContent h2 {
+.heroTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTitle h2 {
     font-family: 'Brittany';
     font-size: 8rem;
     color: #f5f1f1;
@@ -82,11 +90,15 @@ header ul li a:hover{
         align-items: center;
     }
 
+    .heroContent {
+        height: fit-content;
+    }
+
     .heroContent h2 {
         font-size: 5rem;
     }
 
     .titleLa {
-        margin-bottom: -40px;
+        margin-bottom: 0px;
     }
 }
